@@ -1,6 +1,11 @@
 <?php
 include('db/bancodedados.php');
 
+if(isset($_GET['logout'])){
+	session_start();
+	session_destroy();
+}
+
 $login = isset($_POST['login']) ? $_POST['login'] : null;
 $senha = isset($_POST['senha']) ? $_POST['senha'] : null;
 
