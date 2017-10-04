@@ -1,6 +1,6 @@
 <html>
 	<body>
-		Usuario Categoria Produto Sair
+		<a href="/user">Usuario</a> Categoria Produto Sair
 	</body>
 </html>
 		
